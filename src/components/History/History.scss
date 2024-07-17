@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Josefin+Sans:ital@0;1&display=swap');
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+
+    --primary: #181618;
+    --secondary: #E6E5DD;
+    --contrast: #98ED2C;
+
+    color: var(--primary);
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
