@@ -12,7 +12,7 @@ const Navbar = () => {
           <h1>SUNO</h1>
         </div>
         <div className="menu flex flex-row gap-2 text-base">
-          <a href="https://sunoo.netlify.app/history"><i className="ri-hourglass-line"></i></a>
+          <a href="/history"><i className="ri-hourglass-line"></i></a>
         </div>
       </div>
     </>
