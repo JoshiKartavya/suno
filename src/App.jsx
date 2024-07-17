@@ -13,7 +13,7 @@ const App = () => {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Suno />}></Route>
-          <Route path='https://sunoo.netlify.app/history' element={<History />}></Route>
+          <Route path='/history' element={<History />}></Route>
         </Routes>
       </BrowserRouter>
     </>
