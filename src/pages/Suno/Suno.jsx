@@ -25,8 +25,8 @@ const Suno = () => {
   }, []);
   return (
     <>  
-       <div className=" invisible sm:invisible md:visible lg:visible" id="app">
-          <div id="cursor"></div>
+       <div id="app">
+          <div className=" invisible sm:invisible md:visible lg:visible" id="cursor"></div>
           <Navbar />
           <Hero />
           <Player />
